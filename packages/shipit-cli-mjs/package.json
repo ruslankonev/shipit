@@ -1,0 +1,30 @@
+{
+  "name": "shipit-cli-mjs",
+  "version": "1.0.0",
+  "description": "Modern .mjs deployment CLI tool",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "shipit": "./bin/shipit"
+  },
+  "scripts": {
+    "start": "node ./bin/shipit"
+  },
+  "keywords": [
+    "shipit",
+    "automation",
+    "deployment",
+    "deploy",
+    "ssh"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "orchestrator": "^0.3.8",
+    "pretty-hrtime": "^1.0.3",
+    "ssh-pool": "^5.3.0"
+  }
+}
